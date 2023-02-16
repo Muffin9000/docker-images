@@ -1,0 +1,15 @@
+---
+collections:
+- awx.awx
+- community.general
+- ansible.utils
+- community.windows
+- ansible.netcommon
+- kubernetes.core
+- google.cloud
+- netbox.netbox
+- community.libvirt
+- ansible.posix
+# roles:
+# - evrardjp.keepalived
+# - mesaguy.prometheus

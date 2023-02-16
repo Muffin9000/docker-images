@@ -1,0 +1,28 @@
+openssh-client [platform:apk]
+rsync [platform:apk]
+sshpass [platform:apk]
+python3-dev [platform:apk]
+libc-dev [platform:apk]
+gcc [platform:apk]
+make [platform:apk]
+musl-dev [platform:apk]
+
+# ansible
+py3-cffi [platform:apk]
+py3-cryptography [platform:apk]
+py3-jinja2 [platform:apk]
+py3-cparser [platform:apk]
+py3-six [platform:apk]
+py3-yaml [platform:apk]
+
+# ncclient
+py3-lxml [platform:apk]
+
+# paramiko
+findutils [compile platform:apk]
+
+# pypsrp
+krb5-dev [compile platform:apk]
+krb5-libs [compile platform:apk]
+openssh-server-krb5 [compile platform:apk]
+py3-requests [platform:apk]

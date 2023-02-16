@@ -1,0 +1,15 @@
+---
+collections:
+- community.general
+- ansible.utils
+- community.windows
+- ansible.netcommon
+- kubernetes.core
+- google.cloud
+- name: netbox.netbox
+  version: 3.7.1
+- community.libvirt
+- ansible.posix
+roles:
+- evrardjp.keepalived
+- mesaguy.prometheus

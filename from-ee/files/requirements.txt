@@ -1,0 +1,12 @@
+ansible-core==2.12.5
+urllib3
+libvirt-python
+netaddr
+cryptography
+ansible-lint
+google-auth
+google-cloud-storage
+pynetbox
+pytz
+dnspython
+git-lfs

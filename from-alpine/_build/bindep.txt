@@ -1,0 +1,7 @@
+gcc [platform:apk]
+libvirt-dev [platform:apk]
+musl-dev [platform:apk]
+libssh-dev [platform:apk]
+python3-dev [platform:apk]
+git-lfs [platform:apk]
+openssh-client [platform:apk]

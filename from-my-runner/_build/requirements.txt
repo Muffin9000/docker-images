@@ -1,0 +1,11 @@
+ansible-core==2.12.5
+libvirt-python
+netaddr
+cryptography
+ansible-lint
+google-auth
+google-cloud-storage
+pynetbox==6.6.2
+pytz
+dnspython
+dumb-init

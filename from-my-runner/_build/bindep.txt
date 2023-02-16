@@ -1,0 +1,4 @@
+gcc 
+python3-devel
+libvirt-libs
+git-lfs

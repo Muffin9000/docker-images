@@ -1,0 +1,19 @@
+---
+version: 1
+build_arg_defaults:
+  ANSIBLE_GALAXY_CLI_COLLECTION_OPTS: "-c --ignore-certs"
+  ANSIBLE_GALAXY_CLI_ROLE_OPTS: "--ignore-certs"
+dependencies:
+  galaxy: files/requirements.yml
+  python: files/requirements.txt
+  system: files/bindep.txt
+
+additional_build_steps:
+  append:
+    - RUN alternatives --set python /usr/bin/python3
+    - COPY --from=quay.io/project-receptor/receptor:latest /usr/bin/receptor /usr/bin/receptor
+    - RUN mkdir -p /var/run/receptor
+    - ADD run.sh /run.sh
+    - CMD /run.sh
+    - USER 1000 
+#    - RUN git lfs install
